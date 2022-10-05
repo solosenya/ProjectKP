@@ -1,4 +1,4 @@
-package consultantplus.selfemployedapplication.service;
+package consultantplus.selfemployedapplication.selfEmployedTest.service;
 
 import com.google.auth.oauth2.GoogleCredentials;
 import com.google.firebase.FirebaseApp;
@@ -16,7 +16,7 @@ public class FireBaseInitialize {
     public void initialize() throws IOException {
 
         FileInputStream serviceAccount = new FileInputStream(
-                        "/home/solosenya/Project_CP/serviceAccountKey.json");
+                        "C:\\Users\\solos\\IdeaProjects\\SelfEmployedApplication\\serviceAccountKey.json");
 
         FirebaseOptions options = new FirebaseOptions.Builder()
                 .setCredentials(GoogleCredentials.fromStream(serviceAccount))

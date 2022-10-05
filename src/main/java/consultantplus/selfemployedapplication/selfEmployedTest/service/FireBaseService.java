@@ -1,9 +1,9 @@
-package consultantplus.selfemployedapplication.service;
+package consultantplus.selfemployedapplication.selfEmployedTest.service;
 
 import com.google.api.core.ApiFuture;
 import com.google.cloud.firestore.*;
 import com.google.firebase.cloud.FirestoreClient;
-import consultantplus.selfemployedapplication.model.nodeModel.NodeModel;
+import consultantplus.selfemployedapplication.selfEmployedTest.model.NodeModel;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

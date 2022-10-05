@@ -1,4 +1,4 @@
-package consultantplus.selfemployedapplication.model.nodeModel;
+package consultantplus.selfemployedapplication.selfEmployedTest.model;
 
 import lombok.Data;
 import org.springframework.stereotype.Component;
